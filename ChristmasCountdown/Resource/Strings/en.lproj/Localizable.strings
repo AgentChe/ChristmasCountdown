@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Soccer
+
+  Created by Андрей Чернышев on 01.02.2023.
+  
+*/
+
+// MARK: General
+"Cancel" = "Cancel";
+"Continue" = "Continue";
+"Next" = "Next";
+"Done" = "Done";
+"Skip" = "Skip";
+"OK" = "OK";
+"Save" = "Save";
+"Delete" = "Delete";
+
+// MARK: Splash
+"Splash.Title" = "Christmas\nTracker";
+
+// MARK: Main
+"Main.WhereSanta" = "Where is Santa?";
+
+// MARK: Themes
+"Themes.Title" = "Pick your favorite festive scene and set the mood";
+"Themes.Apply" = "Apply theme";

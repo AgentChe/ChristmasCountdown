@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CCB45F84F16A3041EB734AA /* Pods_ChristmasCountdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D82A6B40842ACE94E298E2 /* Pods_ChristmasCountdown.framework */; };
+		DE2521D32E9A885000557C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2521CA2E9A885000557C74 /* Assets.xcassets */; };
+		DE2521D52E9A885000557C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2521CD2E9A885000557C74 /* LaunchScreen.storyboard */; };
+		DE2521E92E9A8A2B00557C74 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2521E32E9A8A2B00557C74 /* Localizable.strings */; };
+		DE25230D2E9A8A3100557C74 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F52E9A8A3100557C74 /* PaddingLabel.swift */; };
+		DE2523122E9A8A3100557C74 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FD2E9A8A3100557C74 /* UIColor+Extension.swift */; };
+		DE2523162E9A8A3100557C74 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522E52E9A8A3100557C74 /* SessionManager.swift */; };
+		DE25231E2E9A8A3100557C74 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522BD2E9A8A3100557C74 /* SplashView.swift */; };
+		DE2523212E9A8A3100557C74 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FC2E9A8A3100557C74 /* UIApplication+Extension.swift */; };
+		DE2523222E9A8A3100557C74 /* NavigationControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F12E9A8A3100557C74 /* NavigationControllerSettings.swift */; };
+		DE2523292E9A8A3100557C74 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F32E9A8A3100557C74 /* GradientView.swift */; };
+		DE25232F2E9A8A3100557C74 /* RxActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521ED2E9A8A3100557C74 /* RxActivityIndicator.swift */; };
+		DE2523302E9A8A3100557C74 /* SignError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522052E9A8A3100557C74 /* SignError.swift */; };
+		DE2523372E9A8A3100557C74 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FB2E9A8A3100557C74 /* String+Extension.swift */; };
+		DE25233B2E9A8A3100557C74 /* TapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F72E9A8A3100557C74 /* TapAreaButton.swift */; };
+		DE25233F2E9A8A3100557C74 /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FF2E9A8A3100557C74 /* UIEdgeInsets+Extension.swift */; };
+		DE2523402E9A8A3100557C74 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25220C2E9A8A3100557C74 /* ScreenSize.swift */; };
+		DE2523412E9A8A3100557C74 /* UIView+RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522012E9A8A3100557C74 /* UIView+RxExtension.swift */; };
+		DE25234E2E9A8A3100557C74 /* NumberLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522092E9A8A3100557C74 /* NumberLaunches.swift */; };
+		DE2523512E9A8A3100557C74 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521EC2E9A8A3100557C74 /* RequestReview.swift */; };
+		DE2523522E9A8A3100557C74 /* ObservableRetrySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25220A2E9A8A3100557C74 /* ObservableRetrySingle.swift */; };
+		DE25235A2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521EB2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift */; };
+		DE2523612E9A8A3100557C74 /* ContentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522032E9A8A3100557C74 /* ContentError.swift */; };
+		DE2523632E9A8A3100557C74 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25220B2E9A8A3100557C74 /* Scalable.swift */; };
+		DE2523642E9A8A3100557C74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522132E9A8A3100557C74 /* SceneDelegate.swift */; };
+		DE2523672E9A8A3100557C74 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F02E9A8A3100557C74 /* NavigationController.swift */; };
+		DE25236E2E9A8A3100557C74 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F92E9A8A3100557C74 /* Collection+Extension.swift */; };
+		DE2523702E9A8A3100557C74 /* TakePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521EE2E9A8A3100557C74 /* TakePhoto.swift */; };
+		DE2523752E9A8A3100557C74 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25220E2E9A8A3100557C74 /* Weak.swift */; };
+		DE2523822E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522002E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift */; };
+		DE2523842E9A8A3100557C74 /* SplashReceiptValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522BB2E9A8A3100557C74 /* SplashReceiptValidationObserver.swift */; };
+		DE25238A2E9A8A3100557C74 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FE2E9A8A3100557C74 /* UIDevice+Extension.swift */; };
+		DE25238D2E9A8A3100557C74 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522082E9A8A3100557C74 /* Fonts.swift */; };
+		DE2523912E9A8A3100557C74 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F62E9A8A3100557C74 /* PaddingTextField.swift */; };
+		DE2523952E9A8A3100557C74 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522122E9A8A3100557C74 /* GlobalDefinitions.swift */; };
+		DE2523962E9A8A3100557C74 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522BE2E9A8A3100557C74 /* SplashViewController.swift */; };
+		DE2523AE2E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521F42E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift */; };
+		DE2523B42E9A8A3100557C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522102E9A8A3100557C74 /* AppDelegate.swift */; };
+		DE2523B72E9A8A3100557C74 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE25220D2E9A8A3100557C74 /* TextAttributes.swift */; };
+		DE2523BA2E9A8A3100557C74 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2522042E9A8A3100557C74 /* NetworkError.swift */; };
+		DE2523BC2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2521FA2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift */; };
+		DE2523C42E9A8C2600557C74 /* NewYork.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE2523C32E9A8C2600557C74 /* NewYork.otf */; };
+		DE2523C72E9A8C3A00557C74 /* CrimsonText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE2523C62E9A8C3A00557C74 /* CrimsonText-Bold.ttf */; };
+		DE2523C92E9A8C4000557C74 /* CrimsonText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE2523C82E9A8C4000557C74 /* CrimsonText-Regular.ttf */; };
+		DE2523CB2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE2523CA2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf */; };
+		DE2523CE2E9A930900557C74 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523CD2E9A930900557C74 /* MainViewController.swift */; };
+		DE2523D02E9A930E00557C74 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523CF2E9A930E00557C74 /* MainView.swift */; };
+		DE2523D32E9A936800557C74 /* MainThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D22E9A936800557C74 /* MainThemeView.swift */; };
+		DE2523D52E9A953D00557C74 /* ChristmasCountdownService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */; };
+		DE2523D72E9A954F00557C74 /* DayPeriodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */; };
+		DE2523D92E9A993B00557C74 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D82E9A993B00557C74 /* ThemeManager.swift */; };
+		DE2523DC2E9A9A3E00557C74 /* ThemeMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523DB2E9A9A3E00557C74 /* ThemeMediator.swift */; };
+		DE2523DE2E9A9B1C00557C74 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523DD2E9A9B1C00557C74 /* MainViewModel.swift */; };
+		DE860AD02E9AA6C600648E47 /* NewYork-Medium-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE860ACF2E9AA6C600648E47 /* NewYork-Medium-Bold.ttf */; };
+		DE860AD32E9AA77600648E47 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AD22E9AA77600648E47 /* ThemesViewController.swift */; };
+		DE860AD52E9AA77B00648E47 /* ThemesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AD42E9AA77B00648E47 /* ThemesViewModel.swift */; };
+		DE860AD72E9AA78100648E47 /* ThemesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AD62E9AA78100648E47 /* ThemesView.swift */; };
+		DE860ADA2E9AA80400648E47 /* ThemesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AD92E9AA80400648E47 /* ThemesCollectionView.swift */; };
+		DE860ADC2E9AA80E00648E47 /* ThemesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860ADB2E9AA80E00648E47 /* ThemesCollectionElement.swift */; };
+		DE860ADF2E9AA81A00648E47 /* ThemesTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860ADE2E9AA81A00648E47 /* ThemesTitleCell.swift */; };
+		DE860AE12E9AA82300648E47 /* ThemesThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE02E9AA82300648E47 /* ThemesThemeCell.swift */; };
+		DE860AE32E9AB1DA00648E47 /* ChristmasInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B50FD263E7BE827182792E6 /* Pods-ChristmasCountdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristmasCountdown.debug.xcconfig"; path = "Target Support Files/Pods-ChristmasCountdown/Pods-ChristmasCountdown.debug.xcconfig"; sourceTree = "<group>"; };
+		9380E2C4518995AAF9F3E1A7 /* Pods-ChristmasCountdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChristmasCountdown.release.xcconfig"; path = "Target Support Files/Pods-ChristmasCountdown/Pods-ChristmasCountdown.release.xcconfig"; sourceTree = "<group>"; };
+		DE2521B12E9A884A00557C74 /* ChristmasCountdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasCountdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2521CA2E9A885000557C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE2521CB2E9A885000557C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2521CC2E9A885000557C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE2521E22E9A8A2B00557C74 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE2521EB2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePhotoFromGallery.swift; sourceTree = "<group>"; };
+		DE2521EC2E9A8A3100557C74 /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
+		DE2521ED2E9A8A3100557C74 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
+		DE2521EE2E9A8A3100557C74 /* TakePhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePhoto.swift; sourceTree = "<group>"; };
+		DE2521F02E9A8A3100557C74 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DE2521F12E9A8A3100557C74 /* NavigationControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerSettings.swift; sourceTree = "<group>"; };
+		DE2521F32E9A8A3100557C74 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DE2521F42E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignedCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		DE2521F52E9A8A3100557C74 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		DE2521F62E9A8A3100557C74 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		DE2521F72E9A8A3100557C74 /* TapAreaButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAreaButton.swift; sourceTree = "<group>"; };
+		DE2521F92E9A8A3100557C74 /* Collection+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FA2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableAndSingle+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FB2E9A8A3100557C74 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FC2E9A8A3100557C74 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FD2E9A8A3100557C74 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FE2E9A8A3100557C74 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		DE2521FF2E9A8A3100557C74 /* UIEdgeInsets+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Extension.swift"; sourceTree = "<group>"; };
+		DE2522002E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		DE2522012E9A8A3100557C74 /* UIView+RxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RxExtension.swift"; sourceTree = "<group>"; };
+		DE2522032E9A8A3100557C74 /* ContentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentError.swift; sourceTree = "<group>"; };
+		DE2522042E9A8A3100557C74 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DE2522052E9A8A3100557C74 /* SignError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignError.swift; sourceTree = "<group>"; };
+		DE2522082E9A8A3100557C74 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		DE2522092E9A8A3100557C74 /* NumberLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLaunches.swift; sourceTree = "<group>"; };
+		DE25220A2E9A8A3100557C74 /* ObservableRetrySingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableRetrySingle.swift; sourceTree = "<group>"; };
+		DE25220B2E9A8A3100557C74 /* Scalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scalable.swift; sourceTree = "<group>"; };
+		DE25220C2E9A8A3100557C74 /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		DE25220D2E9A8A3100557C74 /* TextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAttributes.swift; sourceTree = "<group>"; };
+		DE25220E2E9A8A3100557C74 /* Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		DE2522102E9A8A3100557C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE2522122E9A8A3100557C74 /* GlobalDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDefinitions.swift; sourceTree = "<group>"; };
+		DE2522132E9A8A3100557C74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE2522BB2E9A8A3100557C74 /* SplashReceiptValidationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashReceiptValidationObserver.swift; sourceTree = "<group>"; };
+		DE2522BD2E9A8A3100557C74 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DE2522BE2E9A8A3100557C74 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		DE2522E52E9A8A3100557C74 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		DE2523C32E9A8C2600557C74 /* NewYork.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewYork.otf; sourceTree = "<group>"; };
+		DE2523C62E9A8C3A00557C74 /* CrimsonText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonText-Bold.ttf"; sourceTree = "<group>"; };
+		DE2523C82E9A8C4000557C74 /* CrimsonText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonText-Regular.ttf"; sourceTree = "<group>"; };
+		DE2523CA2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonText-SemiBold.ttf"; sourceTree = "<group>"; };
+		DE2523CD2E9A930900557C74 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE2523CF2E9A930E00557C74 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DE2523D22E9A936800557C74 /* MainThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThemeView.swift; sourceTree = "<group>"; };
+		DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownService.swift; sourceTree = "<group>"; };
+		DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPeriodManager.swift; sourceTree = "<group>"; };
+		DE2523D82E9A993B00557C74 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		DE2523DB2E9A9A3E00557C74 /* ThemeMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMediator.swift; sourceTree = "<group>"; };
+		DE2523DD2E9A9B1C00557C74 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DE860ACF2E9AA6C600648E47 /* NewYork-Medium-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NewYork-Medium-Bold.ttf"; sourceTree = "<group>"; };
+		DE860AD22E9AA77600648E47 /* ThemesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		DE860AD42E9AA77B00648E47 /* ThemesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesViewModel.swift; sourceTree = "<group>"; };
+		DE860AD62E9AA78100648E47 /* ThemesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesView.swift; sourceTree = "<group>"; };
+		DE860AD92E9AA80400648E47 /* ThemesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesCollectionView.swift; sourceTree = "<group>"; };
+		DE860ADB2E9AA80E00648E47 /* ThemesCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesCollectionElement.swift; sourceTree = "<group>"; };
+		DE860ADE2E9AA81A00648E47 /* ThemesTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesTitleCell.swift; sourceTree = "<group>"; };
+		DE860AE02E9AA82300648E47 /* ThemesThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesThemeCell.swift; sourceTree = "<group>"; };
+		DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasInView.swift; sourceTree = "<group>"; };
+		E7D82A6B40842ACE94E298E2 /* Pods_ChristmasCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristmasCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE2521AE2E9A884A00557C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCB45F84F16A3041EB734AA /* Pods_ChristmasCountdown.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2521A82E9A884A00557C74 = {
+			isa = PBXGroup;
+			children = (
+				DE2521D22E9A885000557C74 /* ChristmasCountdown */,
+				DE2521B22E9A884A00557C74 /* Products */,
+				F56337D8E3156CB97D49AEE8 /* Pods */,
+				DF4BD483F7F38556AFC9C10F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE2521B22E9A884A00557C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521B12E9A884A00557C74 /* ChristmasCountdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE2521D22E9A885000557C74 /* ChristmasCountdown */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523002E9A8A3100557C74 /* Classes */,
+				DE2521DA2E9A885C00557C74 /* Resource */,
+			);
+			path = ChristmasCountdown;
+			sourceTree = "<group>";
+		};
+		DE2521DA2E9A885C00557C74 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521E12E9A8A2B00557C74 /* Fonts */,
+				DE2521E42E9A8A2B00557C74 /* Strings */,
+				DE2521CA2E9A885000557C74 /* Assets.xcassets */,
+				DE2521CB2E9A885000557C74 /* Info.plist */,
+				DE2521CD2E9A885000557C74 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		DE2521E12E9A8A2B00557C74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523C52E9A8C2F00557C74 /* CrimsonText */,
+				DE2523C22E9A8C1C00557C74 /* NewYork */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DE2521E42E9A8A2B00557C74 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521E32E9A8A2B00557C74 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		DE2521EF2E9A8A3100557C74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521EB2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift */,
+				DE2521EC2E9A8A3100557C74 /* RequestReview.swift */,
+				DE2521ED2E9A8A3100557C74 /* RxActivityIndicator.swift */,
+				DE2521EE2E9A8A3100557C74 /* TakePhoto.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DE2521F22E9A8A3100557C74 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521F02E9A8A3100557C74 /* NavigationController.swift */,
+				DE2521F12E9A8A3100557C74 /* NavigationControllerSettings.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		DE2521F82E9A8A3100557C74 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521F22E9A8A3100557C74 /* NavigationController */,
+				DE2521F32E9A8A3100557C74 /* GradientView.swift */,
+				DE2521F42E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift */,
+				DE2521F52E9A8A3100557C74 /* PaddingLabel.swift */,
+				DE2521F62E9A8A3100557C74 /* PaddingTextField.swift */,
+				DE2521F72E9A8A3100557C74 /* TapAreaButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		DE2522022E9A8A3100557C74 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521F92E9A8A3100557C74 /* Collection+Extension.swift */,
+				DE2521FA2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift */,
+				DE2521FB2E9A8A3100557C74 /* String+Extension.swift */,
+				DE2521FC2E9A8A3100557C74 /* UIApplication+Extension.swift */,
+				DE2521FD2E9A8A3100557C74 /* UIColor+Extension.swift */,
+				DE2521FE2E9A8A3100557C74 /* UIDevice+Extension.swift */,
+				DE2521FF2E9A8A3100557C74 /* UIEdgeInsets+Extension.swift */,
+				DE2522002E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift */,
+				DE2522012E9A8A3100557C74 /* UIView+RxExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE2522062E9A8A3100557C74 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522032E9A8A3100557C74 /* ContentError.swift */,
+				DE2522042E9A8A3100557C74 /* NetworkError.swift */,
+				DE2522052E9A8A3100557C74 /* SignError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		DE25220F2E9A8A3100557C74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522062E9A8A3100557C74 /* Error */,
+				DE2522082E9A8A3100557C74 /* Fonts.swift */,
+				DE2522092E9A8A3100557C74 /* NumberLaunches.swift */,
+				DE25220A2E9A8A3100557C74 /* ObservableRetrySingle.swift */,
+				DE25220B2E9A8A3100557C74 /* Scalable.swift */,
+				DE25220C2E9A8A3100557C74 /* ScreenSize.swift */,
+				DE25220D2E9A8A3100557C74 /* TextAttributes.swift */,
+				DE25220E2E9A8A3100557C74 /* Weak.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DE2522142E9A8A3100557C74 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				DE2521EF2E9A8A3100557C74 /* Components */,
+				DE2521F82E9A8A3100557C74 /* CustomViews */,
+				DE2522022E9A8A3100557C74 /* Extension */,
+				DE25220F2E9A8A3100557C74 /* Utils */,
+				DE2522102E9A8A3100557C74 /* AppDelegate.swift */,
+				DE2522122E9A8A3100557C74 /* GlobalDefinitions.swift */,
+				DE2522132E9A8A3100557C74 /* SceneDelegate.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		DE2522BC2E9A8A3100557C74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522BB2E9A8A3100557C74 /* SplashReceiptValidationObserver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DE2522BF2E9A8A3100557C74 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522BC2E9A8A3100557C74 /* Utils */,
+				DE2522BE2E9A8A3100557C74 /* SplashViewController.swift */,
+				DE2522BD2E9A8A3100557C74 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DE2522DB2E9A8A3100557C74 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DE860AD12E9AA76A00648E47 /* Themes */,
+				DE2523CC2E9A92F700557C74 /* Main */,
+				DE2522BF2E9A8A3100557C74 /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DE2522E62E9A8A3100557C74 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522E52E9A8A3100557C74 /* SessionManager.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		DE2522FF2E9A8A3100557C74 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523DA2E9A994000557C74 /* Theme */,
+				DE2522E62E9A8A3100557C74 /* Session */,
+				DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */,
+				DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DE2523002E9A8A3100557C74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE2522142E9A8A3100557C74 /* Misc */,
+				DE2522DB2E9A8A3100557C74 /* Presentation */,
+				DE2522FF2E9A8A3100557C74 /* Service */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE2523C22E9A8C1C00557C74 /* NewYork */ = {
+			isa = PBXGroup;
+			children = (
+				DE860ACF2E9AA6C600648E47 /* NewYork-Medium-Bold.ttf */,
+				DE2523C32E9A8C2600557C74 /* NewYork.otf */,
+			);
+			path = NewYork;
+			sourceTree = "<group>";
+		};
+		DE2523C52E9A8C2F00557C74 /* CrimsonText */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523CA2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf */,
+				DE2523C82E9A8C4000557C74 /* CrimsonText-Regular.ttf */,
+				DE2523C62E9A8C3A00557C74 /* CrimsonText-Bold.ttf */,
+			);
+			path = CrimsonText;
+			sourceTree = "<group>";
+		};
+		DE2523CC2E9A92F700557C74 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523D12E9A935F00557C74 /* Views */,
+				DE2523CD2E9A930900557C74 /* MainViewController.swift */,
+				DE2523DD2E9A9B1C00557C74 /* MainViewModel.swift */,
+				DE2523CF2E9A930E00557C74 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DE2523D12E9A935F00557C74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE860AE42E9AB20200648E47 /* ChristmasIn */,
+				DE2523D22E9A936800557C74 /* MainThemeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2523DA2E9A994000557C74 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				DE2523D82E9A993B00557C74 /* ThemeManager.swift */,
+				DE2523DB2E9A9A3E00557C74 /* ThemeMediator.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		DE860AD12E9AA76A00648E47 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				DE860AD82E9AA79500648E47 /* Views */,
+				DE860AD22E9AA77600648E47 /* ThemesViewController.swift */,
+				DE860AD42E9AA77B00648E47 /* ThemesViewModel.swift */,
+				DE860AD62E9AA78100648E47 /* ThemesView.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		DE860AD82E9AA79500648E47 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE860ADD2E9AA81100648E47 /* Cells */,
+				DE860AD92E9AA80400648E47 /* ThemesCollectionView.swift */,
+				DE860ADB2E9AA80E00648E47 /* ThemesCollectionElement.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE860ADD2E9AA81100648E47 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DE860ADE2E9AA81A00648E47 /* ThemesTitleCell.swift */,
+				DE860AE02E9AA82300648E47 /* ThemesThemeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DE860AE42E9AB20200648E47 /* ChristmasIn */ = {
+			isa = PBXGroup;
+			children = (
+				DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */,
+			);
+			path = ChristmasIn;
+			sourceTree = "<group>";
+		};
+		DF4BD483F7F38556AFC9C10F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7D82A6B40842ACE94E298E2 /* Pods_ChristmasCountdown.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F56337D8E3156CB97D49AEE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B50FD263E7BE827182792E6 /* Pods-ChristmasCountdown.debug.xcconfig */,
+				9380E2C4518995AAF9F3E1A7 /* Pods-ChristmasCountdown.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE2521B02E9A884A00557C74 /* ChristmasCountdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE2521C42E9A884C00557C74 /* Build configuration list for PBXNativeTarget "ChristmasCountdown" */;
+			buildPhases = (
+				533641A9BA3277F8017486B0 /* [CP] Check Pods Manifest.lock */,
+				DE2521AD2E9A884A00557C74 /* Sources */,
+				DE2521AE2E9A884A00557C74 /* Frameworks */,
+				DE2521AF2E9A884A00557C74 /* Resources */,
+				5CDF358E7488299A63B8EB2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristmasCountdown;
+			productName = ChristmasCountdown;
+			productReference = DE2521B12E9A884A00557C74 /* ChristmasCountdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE2521A92E9A884A00557C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DE2521B02E9A884A00557C74 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = DE2521AC2E9A884A00557C74 /* Build configuration list for PBXProject "ChristmasCountdown" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE2521A82E9A884A00557C74;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DE2521B22E9A884A00557C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE2521B02E9A884A00557C74 /* ChristmasCountdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE2521AF2E9A884A00557C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2523C92E9A8C4000557C74 /* CrimsonText-Regular.ttf in Resources */,
+				DE2521D32E9A885000557C74 /* Assets.xcassets in Resources */,
+				DE2523CB2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf in Resources */,
+				DE2523C42E9A8C2600557C74 /* NewYork.otf in Resources */,
+				DE2521D52E9A885000557C74 /* LaunchScreen.storyboard in Resources */,
+				DE2521E92E9A8A2B00557C74 /* Localizable.strings in Resources */,
+				DE860AD02E9AA6C600648E47 /* NewYork-Medium-Bold.ttf in Resources */,
+				DE2523C72E9A8C3A00557C74 /* CrimsonText-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		533641A9BA3277F8017486B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChristmasCountdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CDF358E7488299A63B8EB2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChristmasCountdown/Pods-ChristmasCountdown-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChristmasCountdown/Pods-ChristmasCountdown-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChristmasCountdown/Pods-ChristmasCountdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE2521AD2E9A884A00557C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE25230D2E9A8A3100557C74 /* PaddingLabel.swift in Sources */,
+				DE2523D02E9A930E00557C74 /* MainView.swift in Sources */,
+				DE2523D92E9A993B00557C74 /* ThemeManager.swift in Sources */,
+				DE2523122E9A8A3100557C74 /* UIColor+Extension.swift in Sources */,
+				DE860AD52E9AA77B00648E47 /* ThemesViewModel.swift in Sources */,
+				DE2523162E9A8A3100557C74 /* SessionManager.swift in Sources */,
+				DE25231E2E9A8A3100557C74 /* SplashView.swift in Sources */,
+				DE2523DC2E9A9A3E00557C74 /* ThemeMediator.swift in Sources */,
+				DE2523212E9A8A3100557C74 /* UIApplication+Extension.swift in Sources */,
+				DE2523CE2E9A930900557C74 /* MainViewController.swift in Sources */,
+				DE860AE32E9AB1DA00648E47 /* ChristmasInView.swift in Sources */,
+				DE2523222E9A8A3100557C74 /* NavigationControllerSettings.swift in Sources */,
+				DE2523292E9A8A3100557C74 /* GradientView.swift in Sources */,
+				DE25232F2E9A8A3100557C74 /* RxActivityIndicator.swift in Sources */,
+				DE860AD32E9AA77600648E47 /* ThemesViewController.swift in Sources */,
+				DE2523302E9A8A3100557C74 /* SignError.swift in Sources */,
+				DE2523372E9A8A3100557C74 /* String+Extension.swift in Sources */,
+				DE25233B2E9A8A3100557C74 /* TapAreaButton.swift in Sources */,
+				DE860ADF2E9AA81A00648E47 /* ThemesTitleCell.swift in Sources */,
+				DE860ADA2E9AA80400648E47 /* ThemesCollectionView.swift in Sources */,
+				DE860ADC2E9AA80E00648E47 /* ThemesCollectionElement.swift in Sources */,
+				DE2523D72E9A954F00557C74 /* DayPeriodManager.swift in Sources */,
+				DE25233F2E9A8A3100557C74 /* UIEdgeInsets+Extension.swift in Sources */,
+				DE2523402E9A8A3100557C74 /* ScreenSize.swift in Sources */,
+				DE2523412E9A8A3100557C74 /* UIView+RxExtension.swift in Sources */,
+				DE25234E2E9A8A3100557C74 /* NumberLaunches.swift in Sources */,
+				DE2523D32E9A936800557C74 /* MainThemeView.swift in Sources */,
+				DE2523512E9A8A3100557C74 /* RequestReview.swift in Sources */,
+				DE2523522E9A8A3100557C74 /* ObservableRetrySingle.swift in Sources */,
+				DE25235A2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift in Sources */,
+				DE2523612E9A8A3100557C74 /* ContentError.swift in Sources */,
+				DE2523632E9A8A3100557C74 /* Scalable.swift in Sources */,
+				DE860AD72E9AA78100648E47 /* ThemesView.swift in Sources */,
+				DE2523642E9A8A3100557C74 /* SceneDelegate.swift in Sources */,
+				DE860AE12E9AA82300648E47 /* ThemesThemeCell.swift in Sources */,
+				DE2523672E9A8A3100557C74 /* NavigationController.swift in Sources */,
+				DE25236E2E9A8A3100557C74 /* Collection+Extension.swift in Sources */,
+				DE2523702E9A8A3100557C74 /* TakePhoto.swift in Sources */,
+				DE2523752E9A8A3100557C74 /* Weak.swift in Sources */,
+				DE2523822E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift in Sources */,
+				DE2523842E9A8A3100557C74 /* SplashReceiptValidationObserver.swift in Sources */,
+				DE25238A2E9A8A3100557C74 /* UIDevice+Extension.swift in Sources */,
+				DE25238D2E9A8A3100557C74 /* Fonts.swift in Sources */,
+				DE2523DE2E9A9B1C00557C74 /* MainViewModel.swift in Sources */,
+				DE2523912E9A8A3100557C74 /* PaddingTextField.swift in Sources */,
+				DE2523952E9A8A3100557C74 /* GlobalDefinitions.swift in Sources */,
+				DE2523962E9A8A3100557C74 /* SplashViewController.swift in Sources */,
+				DE2523AE2E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
+				DE2523B42E9A8A3100557C74 /* AppDelegate.swift in Sources */,
+				DE2523B72E9A8A3100557C74 /* TextAttributes.swift in Sources */,
+				DE2523BA2E9A8A3100557C74 /* NetworkError.swift in Sources */,
+				DE2523BC2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift in Sources */,
+				DE2523D52E9A953D00557C74 /* ChristmasCountdownService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE2521CD2E9A885000557C74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2521CC2E9A885000557C74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2521E32E9A8A2B00557C74 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2521E22E9A8A2B00557C74 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE2521C52E9A884C00557C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B50FD263E7BE827182792E6 /* Pods-ChristmasCountdown.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChristmasCountdown/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Countdown";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akosnt17.aienglish2.dev.ChristmasCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DE2521C62E9A884C00557C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9380E2C4518995AAF9F3E1A7 /* Pods-ChristmasCountdown.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChristmasCountdown/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Countdown";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = akosnt17.aienglish2.dev.ChristmasCountdown;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DE2521C72E9A884C00557C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE2521C82E9A884C00557C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE2521AC2E9A884A00557C74 /* Build configuration list for PBXProject "ChristmasCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2521C72E9A884C00557C74 /* Debug */,
+				DE2521C82E9A884C00557C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE2521C42E9A884C00557C74 /* Build configuration list for PBXNativeTarget "ChristmasCountdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE2521C52E9A884C00557C74 /* Debug */,
+				DE2521C62E9A884C00557C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE2521A92E9A884A00557C74 /* Project object */;
+}

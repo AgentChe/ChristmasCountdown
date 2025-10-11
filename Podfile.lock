@@ -1,0 +1,38 @@
+PODS:
+  - OtterScaleiOS (1.26)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+
+DEPENDENCIES:
+  - OtterScaleiOS (from `https://github.com/AgentChe/OtterScaleiOS.git`)
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  OtterScaleiOS:
+    :git: https://github.com/AgentChe/OtterScaleiOS.git
+
+CHECKOUT OPTIONS:
+  OtterScaleiOS:
+    :commit: 12663a39c90d42b7ff6e6ad87a6dccea26ff763b
+    :git: https://github.com/AgentChe/OtterScaleiOS.git
+
+SPEC CHECKSUMS:
+  OtterScaleiOS: 7797bb943c69572cd25a6118939ddb7c4684f03c
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+
+PODFILE CHECKSUM: e4ef34bb83e968734ed1540efca6d63e1c774c89
+
+COCOAPODS: 1.16.2
