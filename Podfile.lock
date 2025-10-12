@@ -1,4 +1,5 @@
 PODS:
+  - lottie-ios (4.5.2)
   - OtterScaleiOS (1.26)
   - RxCocoa (6.9.0):
     - RxRelay (= 6.9.0)
@@ -8,12 +9,14 @@ PODS:
   - RxSwift (6.9.0)
 
 DEPENDENCIES:
+  - lottie-ios
   - OtterScaleiOS (from `https://github.com/AgentChe/OtterScaleiOS.git`)
   - RxCocoa
   - RxSwift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - lottie-ios
     - RxCocoa
     - RxRelay
     - RxSwift
@@ -28,11 +31,12 @@ CHECKOUT OPTIONS:
     :git: https://github.com/AgentChe/OtterScaleiOS.git
 
 SPEC CHECKSUMS:
+  lottie-ios: 96784afc26ea031d3e2b6cae342a4b8915072489
   OtterScaleiOS: 7797bb943c69572cd25a6118939ddb7c4684f03c
   RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
   RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
   RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
 
-PODFILE CHECKSUM: e4ef34bb83e968734ed1540efca6d63e1c774c89
+PODFILE CHECKSUM: 76d7f131eea3ec504fd7e0e7a198121fa5893f22
 
 COCOAPODS: 1.16.2

@@ -9,6 +9,7 @@ import UIKit
 
 final class MainView: UIView {
     lazy var themeView = makeThemeView()
+    lazy var christmasCountdownView = makeChristmasCountdownView()
     lazy var whereSantaButton = makeWhereSantaButton()
     
     override init(frame: CGRect) {
@@ -41,6 +42,13 @@ private extension MainView {
         ])
         
         NSLayoutConstraint.activate([
+            christmasCountdownView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            christmasCountdownView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            christmasCountdownView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 21.scale),
+            christmasCountdownView.heightAnchor.constraint(equalToConstant: 232.scale)
+        ])
+        
+        NSLayoutConstraint.activate([
             whereSantaButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             whereSantaButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
             whereSantaButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -30.scale),
@@ -53,6 +61,13 @@ private extension MainView {
 private extension MainView {
     func makeThemeView() -> MainThemeView {
         let view = MainThemeView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeChristmasCountdownView() -> ChristmasCountdownView {
+        let view = ChristmasCountdownView()
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

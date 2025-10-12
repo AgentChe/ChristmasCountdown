@@ -26,6 +26,12 @@ final class MainViewController: UIViewController {
             didTapWhereSanta: mainView.whereSantaButton.rx.tap.asSignal()
         ))
         
+        output.christmasCountdown
+            .drive(Binder(mainView.christmasCountdownView) { base, christmasCountdown in
+                base.setup(christmasCountdown: christmasCountdown)
+            })
+            .disposed(by: disposeBag)
+        
         output.theme
             .drive(Binder(mainView.themeView) { base, theme in
                 base.setup(theme: theme)
@@ -59,7 +65,7 @@ private extension MainViewController {
         switch action {
         case .openWhereSanta:
             // TODO
-            break 
+            break
         }
     }
 }

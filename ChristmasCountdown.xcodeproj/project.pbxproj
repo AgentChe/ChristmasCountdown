@@ -55,7 +55,7 @@
 		DE2523CE2E9A930900557C74 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523CD2E9A930900557C74 /* MainViewController.swift */; };
 		DE2523D02E9A930E00557C74 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523CF2E9A930E00557C74 /* MainView.swift */; };
 		DE2523D32E9A936800557C74 /* MainThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D22E9A936800557C74 /* MainThemeView.swift */; };
-		DE2523D52E9A953D00557C74 /* ChristmasCountdownService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */; };
+		DE2523D52E9A953D00557C74 /* ChristmasCountdownManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D42E9A953D00557C74 /* ChristmasCountdownManager.swift */; };
 		DE2523D72E9A954F00557C74 /* DayPeriodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */; };
 		DE2523D92E9A993B00557C74 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523D82E9A993B00557C74 /* ThemeManager.swift */; };
 		DE2523DC2E9A9A3E00557C74 /* ThemeMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2523DB2E9A9A3E00557C74 /* ThemeMediator.swift */; };
@@ -68,7 +68,11 @@
 		DE860ADC2E9AA80E00648E47 /* ThemesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860ADB2E9AA80E00648E47 /* ThemesCollectionElement.swift */; };
 		DE860ADF2E9AA81A00648E47 /* ThemesTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860ADE2E9AA81A00648E47 /* ThemesTitleCell.swift */; };
 		DE860AE12E9AA82300648E47 /* ThemesThemeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE02E9AA82300648E47 /* ThemesThemeCell.swift */; };
-		DE860AE32E9AB1DA00648E47 /* ChristmasInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */; };
+		DE860AE32E9AB1DA00648E47 /* ChristmasCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE22E9AB1DA00648E47 /* ChristmasCountdownView.swift */; };
+		DE860AE62E9AB57300648E47 /* MainCounterValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE52E9AB57300648E47 /* MainCounterValueView.swift */; };
+		DE860AE92E9AB76300648E47 /* MainCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE82E9AB76300648E47 /* MainCounterView.swift */; };
+		DE860AEE2EFB3AED00648E47 /* ChristmasInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AED2EFB3AED00648E47 /* ChristmasInProgressView.swift */; };
+		DEE666202E9BC7140022AEA8 /* Flex Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = DEE6661F2E9BC7140022AEA8 /* Flex Confetti.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,7 +127,7 @@
 		DE2523CD2E9A930900557C74 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		DE2523CF2E9A930E00557C74 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DE2523D22E9A936800557C74 /* MainThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThemeView.swift; sourceTree = "<group>"; };
-		DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownService.swift; sourceTree = "<group>"; };
+		DE2523D42E9A953D00557C74 /* ChristmasCountdownManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownManager.swift; sourceTree = "<group>"; };
 		DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPeriodManager.swift; sourceTree = "<group>"; };
 		DE2523D82E9A993B00557C74 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		DE2523DB2E9A9A3E00557C74 /* ThemeMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeMediator.swift; sourceTree = "<group>"; };
@@ -136,7 +140,11 @@
 		DE860ADB2E9AA80E00648E47 /* ThemesCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesCollectionElement.swift; sourceTree = "<group>"; };
 		DE860ADE2E9AA81A00648E47 /* ThemesTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesTitleCell.swift; sourceTree = "<group>"; };
 		DE860AE02E9AA82300648E47 /* ThemesThemeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemesThemeCell.swift; sourceTree = "<group>"; };
-		DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasInView.swift; sourceTree = "<group>"; };
+		DE860AE22E9AB1DA00648E47 /* ChristmasCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasCountdownView.swift; sourceTree = "<group>"; };
+		DE860AE52E9AB57300648E47 /* MainCounterValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCounterValueView.swift; sourceTree = "<group>"; };
+		DE860AE82E9AB76300648E47 /* MainCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCounterView.swift; sourceTree = "<group>"; };
+		DE860AED2EFB3AED00648E47 /* ChristmasInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasInProgressView.swift; sourceTree = "<group>"; };
+		DEE6661F2E9BC7140022AEA8 /* Flex Confetti.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Flex Confetti.json"; sourceTree = "<group>"; };
 		E7D82A6B40842ACE94E298E2 /* Pods_ChristmasCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristmasCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -337,7 +345,7 @@
 			children = (
 				DE2523DA2E9A994000557C74 /* Theme */,
 				DE2522E62E9A8A3100557C74 /* Session */,
-				DE2523D42E9A953D00557C74 /* ChristmasCountdownService.swift */,
+				DE2523D42E9A953D00557C74 /* ChristmasCountdownManager.swift */,
 				DE2523D62E9A954F00557C74 /* DayPeriodManager.swift */,
 			);
 			path = Service;
@@ -386,7 +394,7 @@
 		DE2523D12E9A935F00557C74 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DE860AE42E9AB20200648E47 /* ChristmasIn */,
+				DE860AE42E9AB20200648E47 /* ChristmasCountdown */,
 				DE2523D22E9A936800557C74 /* MainThemeView.swift */,
 			);
 			path = Views;
@@ -431,12 +439,24 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		DE860AE42E9AB20200648E47 /* ChristmasIn */ = {
+		DE860AE42E9AB20200648E47 /* ChristmasCountdown */ = {
 			isa = PBXGroup;
 			children = (
-				DE860AE22E9AB1DA00648E47 /* ChristmasInView.swift */,
+				DEE6661F2E9BC7140022AEA8 /* Flex Confetti.json */,
+				DE860AE72E9AB63000648E47 /* Counter */,
+				DE860AE22E9AB1DA00648E47 /* ChristmasCountdownView.swift */,
+				DE860AED2EFB3AED00648E47 /* ChristmasInProgressView.swift */,
 			);
-			path = ChristmasIn;
+			path = ChristmasCountdown;
+			sourceTree = "<group>";
+		};
+		DE860AE72E9AB63000648E47 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				DE860AE52E9AB57300648E47 /* MainCounterValueView.swift */,
+				DE860AE82E9AB76300648E47 /* MainCounterView.swift */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 		DF4BD483F7F38556AFC9C10F /* Frameworks */ = {
@@ -521,6 +541,7 @@
 				DE2521D32E9A885000557C74 /* Assets.xcassets in Resources */,
 				DE2523CB2E9A8C4500557C74 /* CrimsonText-SemiBold.ttf in Resources */,
 				DE2523C42E9A8C2600557C74 /* NewYork.otf in Resources */,
+				DEE666202E9BC7140022AEA8 /* Flex Confetti.json in Resources */,
 				DE2521D52E9A885000557C74 /* LaunchScreen.storyboard in Resources */,
 				DE2521E92E9A8A2B00557C74 /* Localizable.strings in Resources */,
 				DE860AD02E9AA6C600648E47 /* NewYork-Medium-Bold.ttf in Resources */,
@@ -583,6 +604,7 @@
 			files = (
 				DE25230D2E9A8A3100557C74 /* PaddingLabel.swift in Sources */,
 				DE2523D02E9A930E00557C74 /* MainView.swift in Sources */,
+				DE860AE62E9AB57300648E47 /* MainCounterValueView.swift in Sources */,
 				DE2523D92E9A993B00557C74 /* ThemeManager.swift in Sources */,
 				DE2523122E9A8A3100557C74 /* UIColor+Extension.swift in Sources */,
 				DE860AD52E9AA77B00648E47 /* ThemesViewModel.swift in Sources */,
@@ -591,8 +613,9 @@
 				DE2523DC2E9A9A3E00557C74 /* ThemeMediator.swift in Sources */,
 				DE2523212E9A8A3100557C74 /* UIApplication+Extension.swift in Sources */,
 				DE2523CE2E9A930900557C74 /* MainViewController.swift in Sources */,
-				DE860AE32E9AB1DA00648E47 /* ChristmasInView.swift in Sources */,
+				DE860AE32E9AB1DA00648E47 /* ChristmasCountdownView.swift in Sources */,
 				DE2523222E9A8A3100557C74 /* NavigationControllerSettings.swift in Sources */,
+				DE860AEE2EFB3AED00648E47 /* ChristmasInProgressView.swift in Sources */,
 				DE2523292E9A8A3100557C74 /* GradientView.swift in Sources */,
 				DE25232F2E9A8A3100557C74 /* RxActivityIndicator.swift in Sources */,
 				DE860AD32E9AA77600648E47 /* ThemesViewController.swift in Sources */,
@@ -618,6 +641,7 @@
 				DE860AE12E9AA82300648E47 /* ThemesThemeCell.swift in Sources */,
 				DE2523672E9A8A3100557C74 /* NavigationController.swift in Sources */,
 				DE25236E2E9A8A3100557C74 /* Collection+Extension.swift in Sources */,
+				DE860AE92E9AB76300648E47 /* MainCounterView.swift in Sources */,
 				DE2523702E9A8A3100557C74 /* TakePhoto.swift in Sources */,
 				DE2523752E9A8A3100557C74 /* Weak.swift in Sources */,
 				DE2523822E9A8A3100557C74 /* UITapGestureRecognizer+Extension.swift in Sources */,
@@ -633,7 +657,7 @@
 				DE2523B72E9A8A3100557C74 /* TextAttributes.swift in Sources */,
 				DE2523BA2E9A8A3100557C74 /* NetworkError.swift in Sources */,
 				DE2523BC2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift in Sources */,
-				DE2523D52E9A953D00557C74 /* ChristmasCountdownService.swift in Sources */,
+				DE2523D52E9A953D00557C74 /* ChristmasCountdownManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

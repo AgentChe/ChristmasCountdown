@@ -13,6 +13,7 @@ final class MainViewModel {
         case openWhereSanta
     }
     
+    private lazy var christmasCountdownManager = ChristmasCountdownManager.shared
     private lazy var dayPeriodManager = DayPeriodManager.shared
     private lazy var themeManager = ThemeManager()
 }
@@ -24,12 +25,14 @@ extension MainViewModel {
     }
     
     struct Output {
+        let christmasCountdown: Driver<ChristmasCountdownManager.Snapshot>
         let theme: Driver<MainThemeView.Theme>
         let action: Driver<Action>
     }
     
     func configure(input: Input) -> Output {
         Output(
+            christmasCountdown: christmasCountdownManager.snapshot,
             theme: makeTheme(themeId: makeThemeId()),
             action: makeAction(didTapWhereSanta: input.didTapWhereSanta)
         )

@@ -21,6 +21,12 @@
 
 // MARK: Main
 "Main.WhereSanta" = "Where is Santa?";
+"Main.Counter.Days" = "days";
+"Main.Counter.Hours" = "hours";
+"Main.Counter.Min" = "min";
+"Main.Counter.Sec" = "sec";
+"Main.ChristmasCountdown.ChristmasIn" = "Christmas in";
+"Main.ChristmasCountdown.MerryChristmas" = "Merry\nChristmas!";
 
 // MARK: Themes
 "Themes.Title" = "Pick your favorite festive scene and set the mood";

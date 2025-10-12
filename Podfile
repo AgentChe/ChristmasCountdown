@@ -7,6 +7,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'ChristmasCountdown' do
   pod 'RxSwift'
   pod 'RxCocoa'
+  
+  pod 'lottie-ios'
 
   pod 'OtterScaleiOS', :git => "https://github.com/AgentChe/OtterScaleiOS.git"
 end
