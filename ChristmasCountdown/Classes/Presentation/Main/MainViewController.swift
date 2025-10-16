@@ -64,8 +64,8 @@ private extension MainViewController {
     func action(_ action: MainViewModel.Action) {
         switch action {
         case .openWhereSanta:
-            // TODO
-            break
+            let vc = WhereSantaViewController.make()
+            navigationController?.pushViewController(vc, animated: true)
         }
     }
 }

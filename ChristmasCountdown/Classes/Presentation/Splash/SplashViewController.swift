@@ -20,7 +20,7 @@ final class SplashViewController: UIViewController {
         super.viewDidLoad()
         
         sdkInitialize.observe { [weak self] in
-            self?.route()
+            self?.route() 
         }
     }
     

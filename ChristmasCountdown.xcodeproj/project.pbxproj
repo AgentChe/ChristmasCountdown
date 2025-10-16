@@ -72,7 +72,22 @@
 		DE860AE62E9AB57300648E47 /* MainCounterValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE52E9AB57300648E47 /* MainCounterValueView.swift */; };
 		DE860AE92E9AB76300648E47 /* MainCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AE82E9AB76300648E47 /* MainCounterView.swift */; };
 		DE860AEE2EFB3AED00648E47 /* ChristmasInProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE860AED2EFB3AED00648E47 /* ChristmasInProgressView.swift */; };
+		DEB9834B2E9F8C310027A72C /* SantaPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9834A2E9F8C310027A72C /* SantaPlace.swift */; };
+		DEB983802EA00D440027A72C /* SantaAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9837F2EA00D440027A72C /* SantaAnnotation.swift */; };
+		DEB983822EA00E950027A72C /* SantaAnnotationViewFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB983812EA00E950027A72C /* SantaAnnotationViewFabric.swift */; };
+		DEB983852EA00F3B0027A72C /* SantaHouseAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB983842EA00F3B0027A72C /* SantaHouseAnnotation.swift */; };
+		DEB983892EA010690027A72C /* SantaHouseAnnotationViewFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB983882EA010690027A72C /* SantaHouseAnnotationViewFabric.swift */; };
+		DEB9838B2EA014960027A72C /* WSLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9838A2EA014960027A72C /* WSLocationManager.swift */; };
+		DEB9838D2EA026430027A72C /* WhereSantaTimeToPresentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9838C2EA026430027A72C /* WhereSantaTimeToPresentView.swift */; };
+		DEB983902EA0CA800027A72C /* HomeCountdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB9838F2EA0CA800027A72C /* HomeCountdown.swift */; };
+		DEB983922EA0CA880027A72C /* HomeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB983912EA0CA880027A72C /* HomeAnnotation.swift */; };
+		DEB983942EA0CB100027A72C /* HomeAnnotationViewFabric.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB983932EA0CB100027A72C /* HomeAnnotationViewFabric.swift */; };
 		DEE666202E9BC7140022AEA8 /* Flex Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = DEE6661F2E9BC7140022AEA8 /* Flex Confetti.json */; };
+		DEE666232E9BCADC0022AEA8 /* WhereSantaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE666222E9BCADC0022AEA8 /* WhereSantaViewController.swift */; };
+		DEE666252E9BCAE80022AEA8 /* WhereSantaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE666242E9BCAE80022AEA8 /* WhereSantaViewModel.swift */; };
+		DEE666272E9BCAEE0022AEA8 /* WhereSantaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE666262E9BCAEE0022AEA8 /* WhereSantaView.swift */; };
+		DEE6662A2E9BCD740022AEA8 /* WhereSantaMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE666292E9BCD740022AEA8 /* WhereSantaMapView.swift */; };
+		DEE6662C2E9BDAB90022AEA8 /* WhereSantaTabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6662B2E9BDAB90022AEA8 /* WhereSantaTabButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,7 +159,22 @@
 		DE860AE52E9AB57300648E47 /* MainCounterValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCounterValueView.swift; sourceTree = "<group>"; };
 		DE860AE82E9AB76300648E47 /* MainCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCounterView.swift; sourceTree = "<group>"; };
 		DE860AED2EFB3AED00648E47 /* ChristmasInProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasInProgressView.swift; sourceTree = "<group>"; };
+		DEB9834A2E9F8C310027A72C /* SantaPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaPlace.swift; sourceTree = "<group>"; };
+		DEB9837F2EA00D440027A72C /* SantaAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaAnnotation.swift; sourceTree = "<group>"; };
+		DEB983812EA00E950027A72C /* SantaAnnotationViewFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaAnnotationViewFabric.swift; sourceTree = "<group>"; };
+		DEB983842EA00F3B0027A72C /* SantaHouseAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaHouseAnnotation.swift; sourceTree = "<group>"; };
+		DEB983882EA010690027A72C /* SantaHouseAnnotationViewFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SantaHouseAnnotationViewFabric.swift; sourceTree = "<group>"; };
+		DEB9838A2EA014960027A72C /* WSLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSLocationManager.swift; sourceTree = "<group>"; };
+		DEB9838C2EA026430027A72C /* WhereSantaTimeToPresentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaTimeToPresentView.swift; sourceTree = "<group>"; };
+		DEB9838F2EA0CA800027A72C /* HomeCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCountdown.swift; sourceTree = "<group>"; };
+		DEB983912EA0CA880027A72C /* HomeAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnnotation.swift; sourceTree = "<group>"; };
+		DEB983932EA0CB100027A72C /* HomeAnnotationViewFabric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnnotationViewFabric.swift; sourceTree = "<group>"; };
 		DEE6661F2E9BC7140022AEA8 /* Flex Confetti.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Flex Confetti.json"; sourceTree = "<group>"; };
+		DEE666222E9BCADC0022AEA8 /* WhereSantaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaViewController.swift; sourceTree = "<group>"; };
+		DEE666242E9BCAE80022AEA8 /* WhereSantaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaViewModel.swift; sourceTree = "<group>"; };
+		DEE666262E9BCAEE0022AEA8 /* WhereSantaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaView.swift; sourceTree = "<group>"; };
+		DEE666292E9BCD740022AEA8 /* WhereSantaMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaMapView.swift; sourceTree = "<group>"; };
+		DEE6662B2E9BDAB90022AEA8 /* WhereSantaTabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereSantaTabButton.swift; sourceTree = "<group>"; };
 		E7D82A6B40842ACE94E298E2 /* Pods_ChristmasCountdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChristmasCountdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -325,6 +355,7 @@
 		DE2522DB2E9A8A3100557C74 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				DEE666212E9BCAD10022AEA8 /* WhereSanta */,
 				DE860AD12E9AA76A00648E47 /* Themes */,
 				DE2523CC2E9A92F700557C74 /* Main */,
 				DE2522BF2E9A8A3100557C74 /* Splash */,
@@ -457,6 +488,68 @@
 				DE860AE82E9AB76300648E47 /* MainCounterView.swift */,
 			);
 			path = Counter;
+			sourceTree = "<group>";
+		};
+		DEB983472E9F8BB30027A72C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9838E2EA0C9F80027A72C /* Home */,
+				DEB983832EA00F330027A72C /* SantaHouse */,
+				DEB9837E2E9FACF40027A72C /* Santa */,
+				DEE666292E9BCD740022AEA8 /* WhereSantaMapView.swift */,
+				DEB9838A2EA014960027A72C /* WSLocationManager.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		DEB9837E2E9FACF40027A72C /* Santa */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9834A2E9F8C310027A72C /* SantaPlace.swift */,
+				DEB9837F2EA00D440027A72C /* SantaAnnotation.swift */,
+				DEB983812EA00E950027A72C /* SantaAnnotationViewFabric.swift */,
+			);
+			path = Santa;
+			sourceTree = "<group>";
+		};
+		DEB983832EA00F330027A72C /* SantaHouse */ = {
+			isa = PBXGroup;
+			children = (
+				DEB983842EA00F3B0027A72C /* SantaHouseAnnotation.swift */,
+				DEB983882EA010690027A72C /* SantaHouseAnnotationViewFabric.swift */,
+			);
+			path = SantaHouse;
+			sourceTree = "<group>";
+		};
+		DEB9838E2EA0C9F80027A72C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DEB9838F2EA0CA800027A72C /* HomeCountdown.swift */,
+				DEB983912EA0CA880027A72C /* HomeAnnotation.swift */,
+				DEB983932EA0CB100027A72C /* HomeAnnotationViewFabric.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DEE666212E9BCAD10022AEA8 /* WhereSanta */ = {
+			isa = PBXGroup;
+			children = (
+				DEE666282E9BCD6B0022AEA8 /* Views */,
+				DEE666222E9BCADC0022AEA8 /* WhereSantaViewController.swift */,
+				DEE666242E9BCAE80022AEA8 /* WhereSantaViewModel.swift */,
+				DEE666262E9BCAEE0022AEA8 /* WhereSantaView.swift */,
+			);
+			path = WhereSanta;
+			sourceTree = "<group>";
+		};
+		DEE666282E9BCD6B0022AEA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEB983472E9F8BB30027A72C /* Map */,
+				DEE6662B2E9BDAB90022AEA8 /* WhereSantaTabButton.swift */,
+				DEB9838C2EA026430027A72C /* WhereSantaTimeToPresentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DF4BD483F7F38556AFC9C10F /* Frameworks */ = {
@@ -607,13 +700,17 @@
 				DE860AE62E9AB57300648E47 /* MainCounterValueView.swift in Sources */,
 				DE2523D92E9A993B00557C74 /* ThemeManager.swift in Sources */,
 				DE2523122E9A8A3100557C74 /* UIColor+Extension.swift in Sources */,
+				DEB983822EA00E950027A72C /* SantaAnnotationViewFabric.swift in Sources */,
 				DE860AD52E9AA77B00648E47 /* ThemesViewModel.swift in Sources */,
 				DE2523162E9A8A3100557C74 /* SessionManager.swift in Sources */,
 				DE25231E2E9A8A3100557C74 /* SplashView.swift in Sources */,
 				DE2523DC2E9A9A3E00557C74 /* ThemeMediator.swift in Sources */,
 				DE2523212E9A8A3100557C74 /* UIApplication+Extension.swift in Sources */,
 				DE2523CE2E9A930900557C74 /* MainViewController.swift in Sources */,
+				DEE6662C2E9BDAB90022AEA8 /* WhereSantaTabButton.swift in Sources */,
 				DE860AE32E9AB1DA00648E47 /* ChristmasCountdownView.swift in Sources */,
+				DEE666252E9BCAE80022AEA8 /* WhereSantaViewModel.swift in Sources */,
+				DEE666272E9BCAEE0022AEA8 /* WhereSantaView.swift in Sources */,
 				DE2523222E9A8A3100557C74 /* NavigationControllerSettings.swift in Sources */,
 				DE860AEE2EFB3AED00648E47 /* ChristmasInProgressView.swift in Sources */,
 				DE2523292E9A8A3100557C74 /* GradientView.swift in Sources */,
@@ -621,6 +718,7 @@
 				DE860AD32E9AA77600648E47 /* ThemesViewController.swift in Sources */,
 				DE2523302E9A8A3100557C74 /* SignError.swift in Sources */,
 				DE2523372E9A8A3100557C74 /* String+Extension.swift in Sources */,
+				DEB983892EA010690027A72C /* SantaHouseAnnotationViewFabric.swift in Sources */,
 				DE25233B2E9A8A3100557C74 /* TapAreaButton.swift in Sources */,
 				DE860ADF2E9AA81A00648E47 /* ThemesTitleCell.swift in Sources */,
 				DE860ADA2E9AA80400648E47 /* ThemesCollectionView.swift in Sources */,
@@ -636,10 +734,14 @@
 				DE25235A2E9A8A3100557C74 /* ChoosePhotoFromGallery.swift in Sources */,
 				DE2523612E9A8A3100557C74 /* ContentError.swift in Sources */,
 				DE2523632E9A8A3100557C74 /* Scalable.swift in Sources */,
+				DEB983942EA0CB100027A72C /* HomeAnnotationViewFabric.swift in Sources */,
+				DEB983922EA0CA880027A72C /* HomeAnnotation.swift in Sources */,
 				DE860AD72E9AA78100648E47 /* ThemesView.swift in Sources */,
+				DEB983902EA0CA800027A72C /* HomeCountdown.swift in Sources */,
 				DE2523642E9A8A3100557C74 /* SceneDelegate.swift in Sources */,
 				DE860AE12E9AA82300648E47 /* ThemesThemeCell.swift in Sources */,
 				DE2523672E9A8A3100557C74 /* NavigationController.swift in Sources */,
+				DEB9834B2E9F8C310027A72C /* SantaPlace.swift in Sources */,
 				DE25236E2E9A8A3100557C74 /* Collection+Extension.swift in Sources */,
 				DE860AE92E9AB76300648E47 /* MainCounterView.swift in Sources */,
 				DE2523702E9A8A3100557C74 /* TakePhoto.swift in Sources */,
@@ -648,15 +750,21 @@
 				DE2523842E9A8A3100557C74 /* SplashReceiptValidationObserver.swift in Sources */,
 				DE25238A2E9A8A3100557C74 /* UIDevice+Extension.swift in Sources */,
 				DE25238D2E9A8A3100557C74 /* Fonts.swift in Sources */,
+				DEB983802EA00D440027A72C /* SantaAnnotation.swift in Sources */,
 				DE2523DE2E9A9B1C00557C74 /* MainViewModel.swift in Sources */,
 				DE2523912E9A8A3100557C74 /* PaddingTextField.swift in Sources */,
+				DEE666232E9BCADC0022AEA8 /* WhereSantaViewController.swift in Sources */,
 				DE2523952E9A8A3100557C74 /* GlobalDefinitions.swift in Sources */,
 				DE2523962E9A8A3100557C74 /* SplashViewController.swift in Sources */,
 				DE2523AE2E9A8A3100557C74 /* LeftAlignedCollectionViewFlowLayout.swift in Sources */,
 				DE2523B42E9A8A3100557C74 /* AppDelegate.swift in Sources */,
 				DE2523B72E9A8A3100557C74 /* TextAttributes.swift in Sources */,
 				DE2523BA2E9A8A3100557C74 /* NetworkError.swift in Sources */,
+				DEB983852EA00F3B0027A72C /* SantaHouseAnnotation.swift in Sources */,
+				DEE6662A2E9BCD740022AEA8 /* WhereSantaMapView.swift in Sources */,
+				DEB9838D2EA026430027A72C /* WhereSantaTimeToPresentView.swift in Sources */,
 				DE2523BC2E9A8A3100557C74 /* ObservableAndSingle+Extension.swift in Sources */,
+				DEB9838B2EA014960027A72C /* WSLocationManager.swift in Sources */,
 				DE2523D52E9A953D00557C74 /* ChristmasCountdownManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,12 +797,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7FN7933CDF;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChristmasCountdown/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Countdown";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Give us access to your geolocation so we can show you how far Santa is from you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -705,8 +817,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akosnt17.aienglish2.dev.ChristmasCountdown;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vin.proverka.auto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Proverka Auto Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -723,12 +837,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 7FN7933CDF;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChristmasCountdown/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Christmas Countdown";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Give us access to your geolocation so we can show you how far Santa is from you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -739,8 +857,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akosnt17.aienglish2.dev.ChristmasCountdown;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.vin.proverka.auto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Proverka Auto Development";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

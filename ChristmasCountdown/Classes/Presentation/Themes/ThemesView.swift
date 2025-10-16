@@ -59,9 +59,20 @@ private extension ThemesView {
 
 // MARK: Lazy initialization
 private extension ThemesView {
-    func makeBackButton() -> TapAreaButton {
-        let view = TapAreaButton()
-        view.setImage(UIImage(named: "Themes.Back"), for: .normal)
+    func makeBackButton() -> UIButton {
+        var cfg = UIButton.Configuration.plain()
+        cfg.image = UIImage(named: "Back")?.withRenderingMode(.alwaysOriginal)
+        cfg.contentInsets = .zero
+        cfg.background = .clear()
+        cfg.background.visualEffect = UIBlurEffect(style: .systemThinMaterialLight)
+        cfg.background.backgroundColor = UIColor.white.withAlphaComponent(0.15)
+        cfg.background.cornerRadius = 20.scale
+        
+        let view = UIButton(type: .system)
+        view.configuration = cfg
+        view.layer.cornerRadius = 20.scale
+        view.layer.cornerCurve = .continuous
+        view.clipsToBounds = true
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

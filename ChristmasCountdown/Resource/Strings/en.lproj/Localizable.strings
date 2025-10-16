@@ -31,3 +31,9 @@
 // MARK: Themes
 "Themes.Title" = "Pick your favorite festive scene and set the mood";
 "Themes.Apply" = "Apply theme";
+
+// MARK: WhereSanta
+"WhereSanta.Tab.SantaHouse" = "Santa house";
+"WhereSanta.Tab.Santa" = "Santa";
+"WhereSanta.Tab.Home" = "Home";
+"WhereSanta.TimeToPresents" = "Time to find Santa’s presents!";
