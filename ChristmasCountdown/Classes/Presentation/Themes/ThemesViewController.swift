@@ -55,6 +55,9 @@ private extension ThemesViewController {
         switch action {
         case .close:
             navigationController?.popViewController(animated: true)
+        case .openPaygate:
+            let vc = PaygateViewController.make()
+            present(vc, animated: true)
         }
     }
 }

@@ -9,6 +9,8 @@ target 'ChristmasCountdown' do
   pod 'RxCocoa'
   
   pod 'lottie-ios'
+  
+  pod 'SwiftyStoreKit'
 
   pod 'OtterScaleiOS', :git => "https://github.com/AgentChe/OtterScaleiOS.git"
 end

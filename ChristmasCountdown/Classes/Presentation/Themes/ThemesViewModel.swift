@@ -11,6 +11,7 @@ import RxCocoa
 final class ThemesViewModel {
     enum Action {
         case close
+        case openPaygate
     }
     
     private lazy var themeManager = ThemeManager()
@@ -81,6 +82,10 @@ private extension ThemesViewModel {
             .withLatestFrom(selectedId)
             .flatMapLatest { [weak self] selectedId -> Driver<Action> in
                 guard let self else { return .never() }
+                
+                if !SessionManager().hasActiveSubscriptions() {
+                    return .just(.openPaygate)
+                }
                 
                 return themeManager
                     .select(themeId: selectedId)

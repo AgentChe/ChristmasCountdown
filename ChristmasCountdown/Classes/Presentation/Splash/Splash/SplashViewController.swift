@@ -48,7 +48,14 @@ private extension SplashViewController {
                 return
             }
             
-            window.rootViewController = MainViewController.make()
+            if SessionManager().hasActiveSubscriptions() {
+                window.rootViewController = MainViewController.make()
+            } else {
+                let vc = PaygateViewController.make { [weak window] in
+                    window?.rootViewController = MainViewController.make()
+                }
+                self?.present(vc, animated: true)
+            }
         }
     }
 }
